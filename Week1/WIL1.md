@@ -1,5 +1,3 @@
-# Week1
-
 ---
 
 # # 토큰
@@ -1419,3 +1417,5 @@ break  라벨이름(옵션);
 반복문 안에서만 사용 가능
 
 continue  라벨이름(옵션);
+
+![IMG_8604.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/85ca843e-bc26-46e3-badb-44c972265477/16b38cbc-08b9-4a68-8893-af5518a1fe05/IMG_8604.jpeg)
