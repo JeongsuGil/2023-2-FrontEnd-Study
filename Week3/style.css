@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(167, 168, 211);
+    font-family: 'Cafe24Supermagic-Bold-v1.0';
+}
+
+.entire {
+    background-color: white;
+    border-radius: 30px;
+    width: 30rem;
+    height : 50rem;
+    margin: 0 auto;
+}
+
+h1 {
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+h2 {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+#submit-btn {
+    border: 0;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#new-todo {
+    width:80%;
+    height:30px;
+    font-size: 17px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(241, 241, 241);
+
+}
+
+#add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+button {
+    border: 0;
+    background: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 20px;    
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+#todolist, #donelist {
+    border-top: 1px solid rgb(200, 200, 200);
+    height : 20rem;
+    overflow: auto;
+}
