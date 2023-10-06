@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Pretendard-Regular';
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    width: 100%;
+    height: 100%;
+  
+    max-width: 375px;
+    max-height: 852px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    width: 100%;
+    text-align: right;
+    font-size: 72px;
+    color: #fff;
+    margin-bottom: 15px;
+  
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input::placeholder {
+    color: #fff;
+}
+
+.row {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+
+}
+
+button {
+    width:80px;
+    height:80px;
+    border-radius: 100%;
+    border: none;
+    margin-left: 10px;
+
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.spe, .ac, .equal, .dot { 
+    background: #a5a5a5;
+    color: #000;
+}
+
+.num {
+    background: #333333;
+}
+
+.ope {
+    background: #ff9f0a;
+}
+
+.zero { 
+    background: #333333;
+    grid-column: span 2;
+    width: 173px;
+    border-radius: 40px
+}
+
+.active {
+    background: #fff;
+    color: #ff9f0a;
+}
